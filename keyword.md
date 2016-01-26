@@ -12,6 +12,7 @@
 
 ##### static_assert
 编译器断言
+用法: 
 
 ##### auto
 自动推导类型。
@@ -19,5 +20,8 @@
 ##### decltype
 推断类型。
 
-
 #### nullptr
+空指针常量，类型为std::nullptr_t。
+
+#### char16_t 和 char32_t
+克服wchar_t在不同平台上无法保证确定宽度的缺点而引入。
