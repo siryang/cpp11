@@ -2,8 +2,9 @@
 
 ##### noexcept
 `noexcept`表示静态异常规范，指定函数是否有异常抛出。  
+如果`noexcept`函数有异常抛出，则直接调用`std::terminate`中断程序的执行。  
 用法: `noexcept(true/false)`，默认为`false`。
-如果`noexcept`函数有异常抛出，则直接调用`std::terminate`中断程序的执行
+
 
 ##### constexpr
 `constexpr`用于修饰函数结果为常量的函数或者编译器可以确定的常量。
